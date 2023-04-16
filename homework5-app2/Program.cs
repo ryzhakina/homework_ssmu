@@ -6,7 +6,7 @@ class Program
 {
     const string Tmp = @"%AppData%/Lesson12Homework.txt";
 
-    static void Main(string[] args)
+    static async Task Main(string[] args)
     {
         var tmp = Environment.ExpandEnvironmentVariables(Tmp);
 
